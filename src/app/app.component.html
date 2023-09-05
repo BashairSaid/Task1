@@ -1,0 +1,16 @@
+<div style="text-align: center;">
+<h2  class="text-primary"> Welcome Back! {{str}}</h2>
+<hr>
+
+<h4 style="text-align: center;"> Enter your Name </h4>
+<input style="text-align: center;" type="text " [(ngModel)]="data"> <br> 
+<h4 style="text-align: center;">{{data}}</h4><hr>
+
+
+<ul class="ul-div">
+    <button type="submit"    class="btn btn-info" [routerLink]="['/student']"> Go to student mark </button>
+</ul>
+</div>
+
+  
+<router-outlet></router-outlet>
